@@ -4,9 +4,10 @@ import {
   Route
 } from "react-router-dom";
 
-import {Container, Navbar, Nav} from 'react-bootstrap';
-import {LinkContainer} from 'react-router-bootstrap'
+import React from 'react';
 
+import {Container, Navbar, Nav, Card, Button} from 'react-bootstrap';
+import {LinkContainer} from 'react-router-bootstrap'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,6 +21,17 @@ import SkyTree from './Images/skytree.jpg';
 import Tokyo from './Images/tokyo.jpg';
 
 import YoutubeEmbed from "./YoutubeEmbed";
+
+const cardWidth ={
+        width: '18rem',
+        height: '30rem'
+    };
+
+const cardImg = {
+    width: '18rem',
+    height: '18rem',
+    objectFit: 'cover'
+};
 
 function App() {
   return (
@@ -61,7 +73,20 @@ function App() {
 
 function Home() {
   return (
-    <h1>Home</h1>
+    <div class='page_space'>
+        <div class='home_cont'>
+                <Card style={cardWidth}>
+                    <Card.Img variant='top' src={Intro} style={cardImg}/>
+                    <Card.Body>
+                        <Card.Title>Project 1</Card.Title>
+                        <Card.Text>
+                            An AR program that displays AR knickknacks for Tokyo and London using Vuforia and Unity
+                        </Card.Text>
+                        <Button variant='primary' href='/cs428portfolio/proj1'>Go To Documentation</Button>
+                    </Card.Body>
+                </Card>
+        </div>
+    </div>
   )
 }
 
@@ -80,26 +105,27 @@ function Proj1() {
             <span class="c5">Introduction</span>
         </h2>
         <p class="c10">
-            <div class="intro_container">
-              <span class="c3 intro_content">In order to use the project (as long as you have an android phone), you have to download the apk file from the releases section on the Github repository. You can download this directly from your phone &rsquo;s browser, go to your downloads folder, click on the file and it should begin to install. You will likely need to allow app installs from outside sources as well as allow your browser of choice to install apps. After the install, the app will be ready to run. Click on it and it will likely prompt you if you wanna allow camera permissions, select yes. Now all you have to do is present the two cubes (merge and class cubes linked below) and the two knick-knacks will be overlaid onto them. There are two main things that can be done with these knick-knacks besides just viewing them. You can move them around to view all the different sides and see what the weather is for the location being represented, and you can flip them upside down and then back up and this will spin the eight ball that &#39;s located on one of the sides of its respective cube. You will hear a success sound when the eight ball is successfully spun.</span>
-              <div class="intro_img_container">
-                <img src={Intro} class='intro_img' alt="London"/>
+            <div class="body_container">
+              <span class="c3 body_content">In order to use the project (as long as you have an android phone), you have to download the apk file from the releases section on the Github repository. You can download this directly from your phone &rsquo;s browser, go to your downloads folder, click on the file and it should begin to install. You will likely need to allow app installs from outside sources as well as allow your browser of choice to install apps. After the install, the app will be ready to run. Click on it and it will likely prompt you if you wanna allow camera permissions, select yes. Now all you have to do is present the two cubes (merge and class cubes linked below) and the two knick-knacks will be overlaid onto them. There are two main things that can be done with these knick-knacks besides just viewing them. You can move them around to view all the different sides and see what the weather is for the location being represented, and you can flip them upside down and then back up and this will spin the eight ball that &#39;s located on one of the sides of its respective cube. You will hear a success sound when the eight ball is successfully spun.</span>
+              <div class="body_img_container">
+                <img src={Intro} class='body_img' alt="Intro"/>
               </div>
             </div>
-        </p>
-        <p class="c4">
-            <span class="c3"></span>
+            <p class="c4 c14">
+                <span class="c3"></span>
+            </p>
+            <span class='c3'>Download the images for the cube from here: </span>
+            <span class='c0'>
+                <a class='c2' href='https://drive.google.com/file/d/1t1p5h6GoyuHMjzZVCXqVKomhcH0JRcfz/view?usp=sharing' target='_blank' rel="noopener noreferrer">https://drive.google.com/file/d/1t1p5h6GoyuHMjzZVCXqVKomhcH0JRcfz/view?usp=sharing</a>
+            </span>
         </p>
         <h2 class="c9" id="h.9080ky5k2so5">
             <span class="c5">Github Link</span>
         </h2>
         <p class="c10">
             <span class="c0">
-                <a class="c2" href="https://github.com/jtlaughton/428Project1">https://github.com/jtlaughton/428Project1</a>
+                <a class="c2" href="https://github.com/jtlaughton/428Project1" target='_blank' rel="noopener noreferrer">https://github.com/jtlaughton/428Project1</a>
             </span>
-        </p>
-        <p class="c4">
-            <span class="c3"></span>
         </p>
         <h2 class="c9" id="h.y6c703pq4tsi">
             <span class="c5">Resources Used</span>
@@ -111,11 +137,11 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>Cherry Blossom Tree, &quot;Sakura Tree 2 &quot;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://skfb.ly/6D8zn">https://skfb.ly/6D8zn</a>
+                    <a class="c2" href="https://skfb.ly/6D8zn" target='_blank' rel="noopener noreferrer">https://skfb.ly/6D8zn</a>
                 </span>
                 <span>) by proxy_doug is licensed under Creative Commons Attribution (</span>
                 <span class="c0">
-                    <a class="c2" href="http://creativecommons.org/licenses/by/4.0">http://creativecommons.org/licenses/by/4.0/</a>
+                    <a class="c2" href="http://creativecommons.org/licenses/by/4.0" target='_blank' rel="noopener noreferrer">http://creativecommons.org/licenses/by/4.0/</a>
                 </span>
                 <span class="c3">).</span>
             </li>
@@ -127,11 +153,11 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>Goku, &quot;son_goku_and_kintoun_nimbus &quot;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://skfb.ly/6ZKCT">https://skfb.ly/6ZKCT</a>
+                    <a class="c2" href="https://skfb.ly/6ZKCT" target='_blank' rel="noopener noreferrer">https://skfb.ly/6ZKCT</a>
                 </span>
                 <span>) by FnAf_GoD21 is licensed under Creative Commons Attribution (</span>
                 <span class="c0">
-                    <a class="c2" href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>
+                    <a class="c2" href="http://creativecommons.org/licenses/by/4.0/" target='_blank' rel="noopener noreferrer">http://creativecommons.org/licenses/by/4.0/</a>
                 </span>
                 <span class="c3">).</span>
             </li>
@@ -143,11 +169,11 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>Vending Machine, &quot;Vending Machine &quot;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://skfb.ly/6DqWF">https://skfb.ly/6DqWF</a>
+                    <a class="c2" href="https://skfb.ly/6DqWF" target='_blank' rel="noopener noreferrer">https://skfb.ly/6DqWF</a>
                 </span>
                 <span>) by Adrian Crisandy is licensed under Creative Commons Attribution (</span>
                 <span class="c0">
-                    <a class="c2" href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>
+                    <a class="c2" href="http://creativecommons.org/licenses/by/4.0/" target='_blank' rel="noopener noreferrer">http://creativecommons.org/licenses/by/4.0/</a>
                 </span>
                 <span class="c3">
                     ).
@@ -161,7 +187,7 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>Background Music Tokyo, &ldquo;Traditional Japanese Music &rdquo;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://www.youtube.com/watch?v=gdJIE9lzNIQ">https://www.youtube.com/watch?v=gdJIE9lzNIQ</a>
+                    <a class="c2" href="https://www.youtube.com/watch?v=gdJIE9lzNIQ" target='_blank' rel="noopener noreferrer">https://www.youtube.com/watch?v=gdJIE9lzNIQ</a>
                 </span>
                 <span class="c3">) by E Taylor</span>
             </li>
@@ -173,7 +199,7 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>London Bus, &ldquo;London Bus &rdquo;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://sketchfab.com/3d-models/london-bus-88c9461b93ba43faaac11fdfcf0d50b6">https://sketchfab.com/3d-models/london-bus-88c9461b93ba43faaac11fdfcf0d50b6</a>
+                    <a class="c2" href="https://sketchfab.com/3d-models/london-bus-88c9461b93ba43faaac11fdfcf0d50b6" target='_blank' rel="noopener noreferrer">https://sketchfab.com/3d-models/london-bus-88c9461b93ba43faaac11fdfcf0d50b6</a>
                 </span>
                 <span class="c3">
                     ) by nickknacks
@@ -187,7 +213,7 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>Buckingham Palace, &ldquo;Cartoon Low Poly Buckingham Palace &rdquo;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://sketchfab.com/3d-models/cartoon-low-poly-buckingham-palace-14ca6e8847f440d3a882699a26935351">https://sketchfab.com/3d-models/cartoon-low-poly-buckingham-palace-14ca6e8847f440d3a882699a26935351</a>
+                    <a class="c2" href="https://sketchfab.com/3d-models/cartoon-low-poly-buckingham-palace-14ca6e8847f440d3a882699a26935351" target='_blank' rel="noopener noreferrer">https://sketchfab.com/3d-models/cartoon-low-poly-buckingham-palace-14ca6e8847f440d3a882699a26935351</a>
                 </span>
                 <span class="c3">
                     ) by antonmoek
@@ -201,11 +227,11 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>Phone Booth, &quot;Simplified london red booth for diorama &quot;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://skfb.ly/o77vB">https://skfb.ly/o77vB</a>
+                    <a class="c2" href="https://skfb.ly/o77vB" target='_blank' rel="noopener noreferrer">https://skfb.ly/o77vB</a>
                 </span>
                 <span>) by sabinoplane is licensed under CC Attribution-NonCommercial-ShareAlike (</span>
                 <span class="c0">
-                    <a class="c2" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">http://creativecommons.org/licenses/by-nc-sa/4.0/</a>
+                    <a class="c2" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target='_blank' rel="noopener noreferrer">http://creativecommons.org/licenses/by-nc-sa/4.0/</a>
                 </span>
                 <span class="c3">
                     ).
@@ -219,9 +245,33 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>Background Music London, &ldquo;String Quintet in E Major, G. 275: III. Minuetto &rdquo;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://www.youtube.com/watch?v=CQ5epC4wcb8">https://www.youtube.com/watch?v=CQ5epC4wcb8</a>
+                    <a class="c2" href="https://www.youtube.com/watch?v=CQ5epC4wcb8" target='_blank' rel="noopener noreferrer">https://www.youtube.com/watch?v=CQ5epC4wcb8</a>
                 </span>
                 <span class="c3">) by Gyorgy Eder</span>
+            </li>
+        </ol>
+        <p class="c4 c14">
+            <span class="c3"></span>
+        </p>
+        <ol class="c1 lst-kix_o8d8hxjxkgs0-0" start="9">
+            <li class="c6 li-bullet-0">
+                <span>London Scene Image, &ldquo; Coat of Arms of The City of London&rdquo; (</span>
+                <span class="c0">
+                    <a class="c2" href="https://en.wikipedia.org/wiki/Flag_of_the_City_of_London#/media/File:Coat_of_Arms_of_The_City_of_London.svg" target='_blank' rel="noopener noreferrer">https://en.wikipedia.org/wiki/Flag_of_the_City_of_London#/media/File:Coat_of_Arms_of_The_City_of_London.svg</a>
+                </span>
+                <span class="c3">) by Sodacan</span>
+            </li>
+        </ol>
+        <p class="c4 c14">
+            <span class="c3"></span>
+        </p>
+        <ol class="c1 lst-kix_o8d8hxjxkgs0-0" start="10">
+            <li class="c6 li-bullet-0">
+                <span>Tokyo Scene Image, &ldquo; Flag of Japan&rdquo; (</span>
+                <span class="c0">
+                    <a class="c2" href="https://en.wikipedia.org/wiki/Flag_of_Japan#/media/File:Flag_of_Japan.svg" target='_blank' rel="noopener noreferrer">https://en.wikipedia.org/wiki/Flag_of_Japan#/media/File:Flag_of_Japan.svg</a>
+                </span>
+                <span class="c3">) by Anomie</span>
             </li>
         </ol>
         <h4 class="c7" id="h.9z5iwn5neab5">
@@ -231,11 +281,11 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>Other Vending Machine, &quot;Japan Vending Machine Soft Drink &quot;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://skfb.ly/6RRxZ">https://skfb.ly/6RRxZ</a>
+                    <a class="c2" href="https://skfb.ly/6RRxZ" target='_blank' rel="noopener noreferrer">https://skfb.ly/6RRxZ</a>
                 </span>
                 <span>) by ditovirnantio is licensed under Creative Commons Attribution (</span>
                 <span class="c0">
-                    <a class="c2" href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>
+                    <a class="c2" href="http://creativecommons.org/licenses/by/4.0/" target='_blank' rel="noopener noreferrer">http://creativecommons.org/licenses/by/4.0/</a>
                 </span>
                 <span class="c3">).</span>
             </li>
@@ -247,11 +297,11 @@ function Proj1() {
             <li class="c6 li-bullet-0">
                 <span>Other Cherry Blossom Tree, &quot;Sakura tree &quot;(</span>
                 <span class="c0">
-                    <a class="c2" href="https://skfb.ly/6RPDE">https://skfb.ly/6RPDE</a>
+                    <a class="c2" href="https://skfb.ly/6RPDE" target='_blank' rel="noopener noreferrer">https://skfb.ly/6RPDE</a>
                 </span>
                 <span>) by TatianaDevos is licensed under CC Attribution-NonCommercial-NoDerivs (</span>
                 <span class="c0">
-                    <a class="c2" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</a>
+                    <a class="c2" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel="noopener noreferrer">http://creativecommons.org/licenses/by-nc-nd/4.0/</a>
                 </span>
                 <span class="c3">).</span>
             </li>
@@ -259,26 +309,65 @@ function Proj1() {
         <h4 class="c7" id="h.3px62rbpsmav">
             <span class="c8">Designed By Me</span>
         </h4>
-        <ol class="c1 lst-kix_6qazel6xpy2b-0 start" start="1">
-            <li class="c6 li-bullet-0">
-                <span class="c3">
-                    Tokyo Sky Tree
-                </span>
-            </li>
-            <li class="c6 li-bullet-0">
-                <span class="c3">
-                    Shinto Gate
-                </span>
-            </li>
-            <li class="c6 li-bullet-0">
-                <span class="c3">
-                    Big Ben
-                </span>
-            </li>
-            <li class="c6 li-bullet-0">
-                <span>The Shard</span>
-            </li>
-        </ol>
+        <div class='designed_cont'>
+            <div class="designed_text_area">
+                <ol class="c1 lst-kix_6qazel6xpy2b-0 start" start="1">
+                    <li class="c6 li-bullet-0">
+                        <span class="c3">
+                            Tokyo Sky Tree
+                        </span>
+                    </li>
+                </ol>
+                <p class="c4 c13">
+                    <span class="c3"></span>
+                </p>
+                <ol class="c1 lst-kix_6qazel6xpy2b-0 start" start="2">
+                    <li class="c6 li-bullet-0">
+                        <span class="c3">
+                            Shinto Gate
+                        </span>
+                    </li>
+                </ol>
+                <p class="c4 c13">
+                    <span class="c3"></span>
+                </p>
+                <ol class="c1 lst-kix_6qazel6xpy2b-0 start" start="3">
+                    <li class="c6 li-bullet-0">
+                        <span class="c3">
+                            Big Ben
+                        </span>
+                    </li>
+                </ol>
+                <p class="c4 c13">
+                    <span class="c3"></span>
+                </p>
+                <ol class="c1 lst-kix_6qazel6xpy2b-0 start" start="4">
+                    <li class="c6 li-bullet-0">
+                        <span class='c3'>The Shard</span>
+                    </li>
+                </ol>
+            </div>
+            <div class="designed_img_area">
+                <div class='original_model_container'>
+                    <div class='grid_img_cont_1'>
+                        <img src={SkyTree} class="grid_img" alt='Sky Tree'/>
+                        <span class='caption'>Tokyo Sky Tree</span>
+                    </div>
+                    <div class='grid_img_cont_2'>
+                        <img src={Shinto} class="grid_img" alt='Sky Tree'/>
+                        <span class='caption'>Shinto Gate</span>
+                    </div>
+                    <div class='grid_img_cont_3'>
+                        <img src={Ben} class="grid_img" alt='Sky Tree'/>
+                        <span class='caption'>Big Ben</span>
+                    </div>
+                    <div class='grid_img_cont_4'>
+                        <img src={Shard} class="grid_img" alt='Sky Tree'/>
+                        <span class='caption'>The Shard</span>
+                    </div>                   
+                </div>
+            </div>
+        </div>
         <p class="c4 c13">
             <span class="c3"></span>
         </p>
@@ -286,16 +375,23 @@ function Proj1() {
             <span class="c5">Model Representation</span>
         </h2>
         <p class="c10">
-            <span class="c3">Starting with the London scene, most of the models are famous buildings in London, such as The Shard, Buckingham Palace, and The Big Ben. These represent London for one because they are located in London, but also because the buildings themselves are fairly synonymous with London, specifically Big Ben and Buckingham Palace. In addition to those buildings, the other two models represented here are a bus and a London-style phone booth. These models I feel represent London because they &rsquo;re fairly common associations with the city. Many people when they think of London think of the unique red phone booths and the unique style of bus that they have in the city. The background music is sort of stereotypical fancy music and the main reason this was used was because of the comedic association with Britain and fanciness as well as the use of Buckingham Palace which is the residence of the Royal family.</span>
+            <div class='body_container'>
+                <span class="c3 body_content">Starting with the London scene, most of the models are famous buildings in London, such as The Shard, Buckingham Palace, and The Big Ben. These represent London for one because they are located in London, but also because the buildings themselves are fairly synonymous with London, specifically Big Ben and Buckingham Palace. In addition to those buildings, the other two models represented here are a bus and a London-style phone booth. These models I feel represent London because they &rsquo;re fairly common associations with the city. Many people when they think of London think of the unique red phone booths and the unique style of bus that they have in the city. The background music is sort of stereotypical fancy music and the main reason this was used was because of the comedic association with Britain and fanciness as well as the use of Buckingham Palace which is the residence of the Royal family.</span>
+                <div class='body_img_container'>
+                    <img src={London} class='body_img' alt="London"/>
+                </div>
+            </div>
         </p>
         <p class="c4">
             <span class="c3"></span>
         </p>
         <p class="c10">
-            <span class="c3">Moving on to the Tokyo scene only one of the models is a recognizable landmark which is the Tokyo Skytree, and the main reason for that was because this scene was meant more to capture some of the more on the ground experiences. To demonstrate this I used models like the cherry blossom tree, a Shinto gate, and a vending machine. The cherry blossom tree was used because it &rsquo;s commonly associated with Japan as a whole, however, there are some famous parks in Tokyo where they &rsquo;re quite common such as Ueno Park, the Shinto gate was used to signify all the shrines that can be found throughout the city, and the vending machine was to represent the many vending machines that can be found throughout Japan, especially in urban areas like Tokyo. The other two models (the Skytree and Goku) were meant to more explicitly tie the scene to Tokyo with the Skytree is a fairly famous landmark/building in the city and Goku being a famous character from the anime Dragon Ball which was animated by Tokyo based company Toei Animation. The background song is a more traditional Japanese song and was used to tie into the more traditional aspects of the scene like the cherry blossom tree and the Shinto gate.</span>
-        </p>
-        <p class="c4">
-            <span class="c3"></span>
+            <div class='body_container'>
+                <span class="c3 body_content">Moving on to the Tokyo scene only one of the models is a recognizable landmark which is the Tokyo Skytree, and the main reason for that was because this scene was meant more to capture some of the more on the ground experiences. To demonstrate this I used models like the cherry blossom tree, a Shinto gate, and a vending machine. The cherry blossom tree was used because it &rsquo;s commonly associated with Japan as a whole, however, there are some famous parks in Tokyo where they &rsquo;re quite common such as Ueno Park, the Shinto gate was used to signify all the shrines that can be found throughout the city, and the vending machine was to represent the many vending machines that can be found throughout Japan, especially in urban areas like Tokyo. The other two models (the Skytree and Goku) were meant to more explicitly tie the scene to Tokyo with the Skytree is a fairly famous landmark/building in the city and Goku being a famous character from the anime Dragon Ball which was animated by Tokyo based company Toei Animation. The background song is a more traditional Japanese song and was used to tie into the more traditional aspects of the scene like the cherry blossom tree and the Shinto gate.</span>
+                <div class='body_img_container'>
+                    <img src={Tokyo} class='body_img' alt='Tokyo'/>
+                </div>
+            </div>
         </p>
         <h2 class="c9" id="h.ohq66f1ocrl0">
             <span class="c5">Potential Popularity</span>
