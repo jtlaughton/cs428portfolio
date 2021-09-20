@@ -1,13 +1,12 @@
 import {
   HashRouter,
-  Switch,
   Route,
   Link
 } from "react-router-dom";
 
 import React from 'react';
 
-import {Container, Navbar, Nav, Card, Button} from 'react-bootstrap';
+import {Container, Navbar, Nav, Card} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap'
 
 import './App.css';
@@ -47,6 +46,7 @@ const StyledLink = styled(Link) `
   background-color: #4287f5;
   text-align: center;
   text-decoration: none;
+  margin-top: 1em;
 
   &:hover{
     background-color: #3676d9;
