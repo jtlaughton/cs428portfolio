@@ -36,3 +36,300 @@
     transform: rotate(360deg);
   }
 }
+
+ol {
+  margin: 0;
+  padding: 0
+}
+
+table td,table th {
+  padding: 0
+}
+
+.c6 {
+  margin-left: 1rem;
+  padding-top: 0rem;
+  padding-left: 0rem;
+  padding-bottom: 0rem;
+  line-height: 1.15;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+.c3 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 11pt;
+  font-family: "Arial";
+  font-style: normal
+}
+
+.c15 {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: center
+}
+
+.c12 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 26pt;
+  font-family: "Arial";
+  font-style: normal
+}
+
+.c9 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+.c4 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  line-height: 1.15;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+  height: 1rem
+}
+
+.c7 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+.c5 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 16pt;
+  font-family: "Arial";
+  font-style: normal
+}
+
+.c8 {
+  color: #666666;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 12pt;
+  font-family: "Arial";
+  font-style: normal
+}
+
+.c10 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  line-height: 1.15;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+.c0 {
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip: none;
+  color: #1155cc;
+  text-decoration: underline
+}
+
+.c11 {
+  background-color: #ffffff;
+  width: 85%;
+  padding: 4rem 4rem 4rem 4rem
+}
+
+.c1 {
+  padding: 0;
+  margin: 0
+}
+
+.c2 {
+  color: inherit;
+  text-decoration: inherit
+}
+
+.c14 {
+  margin-left: 2rem
+}
+
+.c13 {
+  margin-left: 1rem
+}
+
+.title {
+  padding-top: 0rem;
+  color: #000000;
+  font-size: 26pt;
+  padding-bottom: 1rem;
+  font-family: "Arial";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+.subtitle {
+  padding-top: 0rem;
+  color: #666666;
+  font-size: 15pt;
+  padding-bottom: 1rem;
+  font-family: "Arial";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+li {
+  color: #000000;
+  font-size: 11pt;
+  font-family: "Arial"
+}
+
+p {
+  margin: 0;
+  color: #000000;
+  font-size: 11pt;
+  font-family: "Arial"
+}
+
+h1 {
+  padding-top: 1rem;
+  color: #000000;
+  font-size: 20pt;
+  padding-bottom: 1rem;
+  font-family: "Arial";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+h2 {
+  padding-top: 1rem;
+  color: #000000;
+  font-size: 16pt;
+  padding-bottom: 1rem;
+  font-family: "Arial";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+h3 {
+  padding-top: 1rem;
+  color: #434343;
+  font-size: 14pt;
+  padding-bottom: 1rem;
+  font-family: "Arial";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+h4 {
+  padding-top: 1rem;
+  color: #666666;
+  font-size: 12pt;
+  padding-bottom: 1rem;
+  font-family: "Arial";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+h5 {
+  padding-top: 1rem;
+  color: #666666;
+  font-size: 11pt;
+  padding-bottom: 1rem;
+  font-family: "Arial";
+  line-height: 1.15;
+  page-break-after: avoid;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+h6 {
+  padding-top: 1rem;
+  color: #666666;
+  font-size: 11pt;
+  padding-bottom: 1rem;
+  font-family: "Arial";
+  line-height: 1.15;
+  page-break-after: avoid;
+  font-style: italic;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+.documentation{
+  display: flex;
+  justify-content: center;
+}
+
+.intro_img{
+  object-fit: cover;
+  width: 12rem;
+  height: 12rem;
+  border-radius: .5rem;
+}
+
+.intro_container{
+  display: flex;
+}
+
+.intro_content{
+  width: 75%;
+}
+
+.intro_img_container{
+  width: 25%;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
