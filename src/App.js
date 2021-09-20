@@ -1,7 +1,8 @@
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
 
 import React from 'react';
@@ -22,6 +23,8 @@ import Tokyo from './Images/tokyo.jpg';
 
 import YoutubeEmbed from "./YoutubeEmbed";
 
+import styled from "styled-components";
+
 const cardWidth ={
         width: '18rem',
         height: '30rem'
@@ -33,27 +36,46 @@ const cardImg = {
     objectFit: 'cover'
 };
 
+const StyledLink = styled(Link) `
+  height: 2rem;
+  width: 10rem;
+  font-size: 1em;
+  color: white;
+  padding: .25em 1em;
+  border-radius: .3rem;
+  display: block;
+  background-color: #4287f5;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover{
+    background-color: #3676d9;
+    color: white;
+    cursor: pointer;
+  }
+`;
+
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
         <Navbar bg="dark" variant='dark' expand="lg">
           <Container>
-            <LinkContainer to='/cs428portfolio/'>
+            <LinkContainer to='/'>
               <Navbar.Brand>John L.</Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className='mr-auto'>
-                <LinkContainer to="/cs428portfolio/">
+                <LinkContainer to="/">
                   <Nav.Link>Home</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="/cs428portfolio/proj1">
+                <LinkContainer to="/proj1">
                   <Nav.Link>Project 1</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="/cs428portfolio/proj2">
+                <LinkContainer to="/proj2">
                   <Nav.Link>Project 2</Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="/cs428portfolio/proj3">
+                <LinkContainer to="/proj3">
                   <Nav.Link>Project 3</Nav.Link>
                 </LinkContainer>
               </Nav>
@@ -61,13 +83,11 @@ function App() {
           </Container>
         </Navbar>
 
-        <Switch>
-          <Route exact path="/cs428portfolio/" component={Home} />
-          <Route exact path="/cs428portfolio/proj1" component={Proj1} />
-          <Route exact path="/cs428portfolio/proj2" component={Proj2} />
-          <Route exact path="/cs428portfolio/proj3" component={Proj3} />
-        </Switch>
-    </Router>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/proj1" component={Proj1} />
+          <Route exact path="/proj2" component={Proj2} />
+          <Route exact path="/proj3" component={Proj3} />
+    </HashRouter>
   );
 }
 
@@ -82,7 +102,7 @@ function Home() {
                         <Card.Text>
                             An AR program that displays AR knickknacks for Tokyo and London using Vuforia and Unity
                         </Card.Text>
-                        <Button variant='primary' href='/cs428portfolio/proj1'>Go To Documentation</Button>
+                        <StyledLink to='/proj1'>Go To Project 1</StyledLink>
                     </Card.Body>
                 </Card>
         </div>
