@@ -482,7 +482,7 @@ function Proj2() {
         <p class="c10">
             <span class="c3">Before anything, in order to get the application running you should follow the build instructions below. After you &rsquo;ve booted into the application you will find yourself in a dark offspace. This is because the phobia that I decided to go with is the fear of the dark. I went with a fear of the dark because I personally was scared of the dark for a very long time, and wanted to create an application that captured aspects of that fear in both the general sense, as well as some aspects that heightened my fear specifically in the past. </span>
         </p>
-        <p class="c10">
+        <p class="c4 c14">
             <span class="c3"></span>
         </p>
         <p class="c10">
@@ -493,7 +493,7 @@ function Proj2() {
               </div>
             </div>
         </p>
-        <p class="c10">
+        <p class="c4 c14">
             <span class="c3"></span>
         </p>
         <p class="c10">
