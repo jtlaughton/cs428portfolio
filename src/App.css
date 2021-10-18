@@ -188,7 +188,7 @@ table td,table th {
 }
 
 .c22 {
-  margin-left: 1em;
+  margin-left: 3em;
   padding-top: 0pt;
   padding-left: 0pt;
   padding-bottom: 0pt;
@@ -431,6 +431,7 @@ h6 {
 .home_cont {
   width: 85%;
   display: flex;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -455,4 +456,34 @@ ol.lst-kix_vll4c6mjz9d1-1 {
 
 ol.lst-kix_vll4c6mjz9d1-1.start {
   counter-reset: lst-ctn-kix_vll4c6mjz9d1-1 0
+}
+
+.bullet-image-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.bullet-content-area {
+  width: 50%;
+}
+
+.image-stack {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.other-body-img {
+  object-fit: cover;
+  width: 11rem;
+  height: 9rem;
+  border-radius: .5rem;
+}
+
+.image-cont {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 11rem;
+  height: 11rem;
 }

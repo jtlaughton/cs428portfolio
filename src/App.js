@@ -20,6 +20,19 @@ import Shinto from './Images/shinto.jpg';
 import SkyTree from './Images/skytree.jpg';
 import Tokyo from './Images/tokyo.jpg';
 
+import ClipBoard from './Images/clipboard.png';
+import CoffeeTableRemote from './Images/coffee_table_with_remote.png';
+//import CouchSign from './Images/couch_with_spawnable_sign.png'
+import DeskFlash from './Images/desk_with_flash.png';
+import Doorway from './Images/doorway.png';
+//import KitchenArea from './Images/kitchen_area.png';
+import LightSwitch from './Images/light_switch.png';
+import Project2Main from './Images/project2_main.png';
+import ShelfDogLight from './Images/shelf_with_dog_and_flickeringlight.png';
+import FlashLightSpawn from './Images/spawnable_sign.png';
+import TablePhone from './Images/table_with_phone.png';
+import TVStand from './Images/tv_with_stand.png';
+
 import YoutubeEmbed from "./YoutubeEmbed";
 
 import styled from "styled-components";
@@ -103,6 +116,16 @@ function Home() {
                             An AR program that displays AR knickknacks for Tokyo and London using Vuforia and Unity
                         </Card.Text>
                         <StyledLink to='/proj1'>Go To Project 1</StyledLink>
+                    </Card.Body>
+                </Card>
+                <Card style={cardWidth}>
+                    <Card.Img variant='top' src={Project2Main} style={cardImg}/>
+                    <Card.Body>
+                        <Card.Title>Project 2</Card.Title>
+                        <Card.Text>
+                            A VR program with various interactable objects that is aimed at combatting a fear of the dark
+                        </Card.Text>
+                        <StyledLink to='/proj2'>Go To Project 2</StyledLink>
                     </Card.Body>
                 </Card>
         </div>
@@ -447,8 +470,12 @@ function Proj2() {
     <div className="documentation">
         <body class="c11">
         <p class="c15 title" id="h.5f9t7jq13nkp">
-            <span class="c12">Project 1</span>
+            <span class="c12">Project 2</span>
         </p>
+        <h2 class="c9" id="h.94gya2l4qaot">
+            <span class="c5">Youtube Video</span>
+        </h2>
+        <YoutubeEmbed embedId="Gc8xB4LL36M" />
         <h2 class="c9" id="h.94gya2l4qaot">
             <span class="c5">Introduction</span>
         </h2>
@@ -459,13 +486,32 @@ function Proj2() {
             <span class="c3"></span>
         </p>
         <p class="c10">
-            <span class="c3">There are quite a few things that can be done in the application. The first thing the user is likely to notice is a light coming from the table behind them. The user can then navigate to this table by using the left pointer (left thumbstick) and clicking the thumbstick to teleport. The user should then see a flashlight that they can pick up and turn on and off with the A button. Next to the flashlight is a clipboard that the user can pick up as well, that informs the user that they can indeed pick up the flashlight. Next to the table there &rsquo;s a button that the user can activate with the pointer on the right controller (right thumb stick), and it spawns in a new flashlight. After the user picks up the flashlight they can move around the space, and find various other things to do. One of them is opening a door to the left of the table with the flashlight. They can open the door with their right pointer and inside they &rsquo;ll find a shelf with a Great Dane that &rsquo;s interactable. This is a reference to a Scooby Doo toy I had that used to make noise without batteries in my closet, and was one of the things that contributed to my fear of the dark. Another thing that the user can do is go up to the flashing phone. The user can then pick it up and press A. This will turn off the phone, which switches off the light and turns off the dial tone. Next to the table, where the phone was, there is a light switch. The user can turn on and off the lights when pointing at it with the right thumbstick. I recommend keeping the lights off, however, if your intention is to help your fear of the dark. The user can also head up the ramp, and they &rsquo;ll see a TV at the end of the upper level. By the TV, on the coffee table, is a remote that can turn on and off the TV if the user is grabbing it and they press the A button. Next to the couch is another button that can be activated by the right pointer, and this spawns in a new remote.</span>
+            <div class="body_container">
+              <span class="c3 body_content">There are quite a few things that can be done in the application. The first thing the user is likely to notice is a light coming from the table behind them. The user can then navigate to this table by using the left pointer (left thumbstick) and clicking the thumbstick to teleport. The user should then see a flashlight that they can pick up and turn on and off with the A button. Next to the flashlight is a clipboard that the user can pick up as well, that informs the user that they can indeed pick up the flashlight. Next to the table there &rsquo;s a button that the user can activate with the pointer on the right controller (right thumb stick), and it spawns in a new flashlight. After the user picks up the flashlight they can move around the space, and find various other things to do. One of them is opening a door to the left of the table with the flashlight. They can open the door with their right pointer and inside they &rsquo;ll find a shelf with a Great Dane that &rsquo;s interactable. This is a reference to a Scooby Doo toy I had that used to make noise without batteries in my closet, and was one of the things that contributed to my fear of the dark. Another thing that the user can do is go up to the flashing phone. The user can then pick it up and press A. This will turn off the phone, which switches off the light and turns off the dial tone. Next to the table, where the phone was, there is a light switch. The user can turn on and off the lights when pointing at it with the right thumbstick. I recommend keeping the lights off, however, if your intention is to help your fear of the dark. The user can also head up the ramp, and they &rsquo;ll see a TV at the end of the upper level. By the TV, on the coffee table, is a remote that can turn on and off the TV if the user is grabbing it and they press the A button. Next to the couch is another button that can be activated by the right pointer, and this spawns in a new remote.</span>
+              <div class="body_img_container">
+                <img src={Project2Main} class='body_img' alt="Intro"/>
+              </div>
+            </div>
         </p>
         <p class="c10">
             <span class="c3"></span>
         </p>
         <p class="c10">
             <span class="c3">I believe that this application can help users with a fear of the dark because it captures many aspects that can make that fear worse in the moment. This includes ominous background music, noises that can be somewhat unsettling particularly in the dark (the dial tone and tv static), as well as only having a flashlight which limits what the user can see making the unlit area part of the unknown, which I feel is a big part of a fear of the dark. However, as the user explores they discover that the source of these sounds is all relatively innocuous. The phone is just a phone and the TV is a TV after all. Another aspect of the application that I believe helps users with a fear of the dark is the fact that it &rsquo;s an application and the graphics are particularly unrealistic (mostly simple shapes). This gives the user the ability to safely simulate their fear of the dark in a less real environment, and can help them get more used to the concept of darkness without being in actual darkness.</span>
+        </p>
+        <h2 class="c9" id="h.94gya2l4qaot">
+            <span class="c5">Build Instructions</span>
+        </h2>
+        <p class="c10">
+            <span class="c3">Connect the Quest headset to your computer via a USB cable. In the headset make sure to allow the device to access data. If the option doesn’t show up, go to quick settings on the left, then to settings on top right of quick settings, and scroll down to Developer and turn on USB Connection Dialog. Now in the Unity editor make sure the main scene is open. A mostly unlit office should be viewable if you are in the correct scene. If not, in the project view to the right of the game view navigate to Assets->Scenes and double click ScareCoOffices. Now navigate to build settings via File -> Build Settings. Click on the android section in the list on the left. Make sure to switch platform to android by clicking the button on the bottom right of the Build Settings window. Now the Quest device you connected should show up under the Run Device list. Now click Build and Run. When the build is finished you can unplug the headset and put it on. In the Quest you navigate to Apps, click on the drop down at the top, and find the Unknown Sources section. From here you can run the application. </span>
+        </p>
+        <h2 class="c9" id="h.94gya2l4qaot">
+            <span class="c5">Github Link</span>
+        </h2>
+        <p class="c10">
+            <span class="c0">
+                <a class="c2" href="https://github.com/jtlaughton/CS428Project2" target='_blank' rel="noopener noreferrer">https://github.com/jtlaughton/CS428Project2</a>
+            </span>
         </p>
         <h2 class="c9" id="h.gpx2uztxrbfj">
             <span class="c5">Resources Used</span>
@@ -694,7 +740,7 @@ function Proj2() {
         <h4 class="c7" id="h.e03n54c9e6wu">
             <span class="c8">Tutorials</span>
         </h4>
-        <ol class="c22 lst-kix_177z9ckr90fj-0 start" start="1">
+        <ol class="c99 lst-kix_177z9ckr90fj-0 start" start="1">
             <li class="c6 li-bullet-0">
                 <span class="c3">Flickering Light, &ldquo;How To Make A Flickering Light &rdquo;(</span>
                 <span class="c2">
@@ -706,6 +752,8 @@ function Proj2() {
         <h2 class="c9" id="h.bt43yib1e0xz">
             <span class="c5">Project Requirements</span>
         </h2>
+        <div class="bullet-image-cont">
+            <div class="bullet-content-area">
         <h4 class="c7" id="h.c6n1aufoo3i9">
             <span class="c8">Designed By Me</span>
         </h4>
@@ -821,17 +869,61 @@ function Proj2() {
                 <span class="c3">Flickering Light</span>
             </li>
         </ol>
+        </div>
+        <div class="image-stack">
+            <div class='image-cont'>
+                <img src={DeskFlash} class="other-body-img" alt='Sky Tree'/>
+                <span class='caption'>Flash Light And Meeting Table</span>
+            </div>
+            <div class='image-cont'>
+                <img src={CoffeeTableRemote} class="other-body-img" alt='Sky Tree'/>
+                <span class='caption'>Coffee Table And Remote</span>
+            </div>
+            <div class='image-cont'>
+                <img src={TVStand} class="other-body-img" alt='Sky Tree'/>
+                <span class='caption'>TV And TV Stand</span>
+            </div>
+            <div class='image-cont'>
+                <img src={LightSwitch} class="other-body-img" alt='Sky Tree'/>
+                <span class='caption'>Light Switch</span>
+            </div>
+            <div class='image-cont'>
+                <img src={TablePhone} class="other-body-img" alt='Sky Tree'/>
+                <span class='caption'>Phone Table And Trash Bin</span>
+            </div>
+            </div>
+
+            <div class="image-stack">
+            <div class='image-cont'>
+                <img src={Doorway} class="other-body-img" alt='Sky Tree'/>
+                <span class='caption'>Doorway</span>
+            </div>
+            <div class='image-cont'>
+                <img src={ShelfDogLight} class="other-body-img" alt='Sky Tree'/>
+                <span class='caption'>Metal Shelf With Greate Dane And Flickering Light</span>
+            </div>
+            <div class='image-cont'>
+                <img src={ClipBoard} class="other-body-img" alt='Sky Tree'/>
+                <span class='caption'>Clip Board</span>
+            </div>
+            <div class='image-cont'>
+                <img src={FlashLightSpawn} class="other-body-img" alt='Sky Tree'/>
+                <span class='caption'>Clip Board</span>
+            </div>
+            
+        </div>
+        </div>
         <h2 class="c9" id="h.zijhgv2n5g5r">
             <span class="c5">Frame Rate</span>
         </h2>
         <p class="c10">
-            <span class="c0">Since I wasn &rsquo;t able to finish the project until Saturday, and I added things to the application since Thursday that would have definitely affected the frame rate, I wasn &rsquo;t able to get any representative frame rate data.</span>
+            <span class="c3">Since I wasn &rsquo;t able to finish the project until Saturday, and I added things to the application since Thursday that would have definitely affected the frame rate, I wasn &rsquo;t able to get any representative frame rate data.</span>
         </p>
         <h2 class="c9" id="h.a16vr4mhtuzg">
             <span class="c5">Simulator Vs The Real Thing</span>
         </h2>
         <p class="c10">
-            <span class="c0">VR can be a truly immersive experience. It dominates your vision and you can easily lose sense of the real world. This creates a lot of real wonderful experiences, and we got a little taste of making some of these experiences with this project. That &rsquo;s why it becomes all the more evident that you can &rsquo;t truly experience these pieces of media through a simulator.</span>
+            <span class="c3">VR can be a truly immersive experience. It dominates your vision and you can easily lose sense of the real world. This creates a lot of real wonderful experiences, and we got a little taste of making some of these experiences with this project. That &rsquo;s why it becomes all the more evident that you can &rsquo;t truly experience these pieces of media through a simulator.</span>
         </p>
         <p class="c4 c14">
             <span class="c3"></span>
