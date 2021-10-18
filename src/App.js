@@ -444,7 +444,419 @@ function Proj1() {
 
 function Proj2() {
   return (
-    <h1>Project 2</h1>
+    <div className="documentation">
+        <body class="c11">
+        <p class="c15 title" id="h.5f9t7jq13nkp">
+            <span class="c12">Project 1</span>
+        </p>
+        <h2 class="c9" id="h.94gya2l4qaot">
+            <span class="c5">Introduction</span>
+        </h2>
+        <p class="c10">
+            <span class="c3">Before anything, in order to get the application running you should follow the build instructions below. After you &rsquo;ve booted into the application you will find yourself in a dark offspace. This is because the phobia that I decided to go with is the fear of the dark. I went with a fear of the dark because I personally was scared of the dark for a very long time, and wanted to create an application that captured aspects of that fear in both the general sense, as well as some aspects that heightened my fear specifically in the past. </span>
+        </p>
+        <p class="c10">
+            <span class="c3"></span>
+        </p>
+        <p class="c10">
+            <span class="c3">There are quite a few things that can be done in the application. The first thing the user is likely to notice is a light coming from the table behind them. The user can then navigate to this table by using the left pointer (left thumbstick) and clicking the thumbstick to teleport. The user should then see a flashlight that they can pick up and turn on and off with the A button. Next to the flashlight is a clipboard that the user can pick up as well, that informs the user that they can indeed pick up the flashlight. Next to the table there &rsquo;s a button that the user can activate with the pointer on the right controller (right thumb stick), and it spawns in a new flashlight. After the user picks up the flashlight they can move around the space, and find various other things to do. One of them is opening a door to the left of the table with the flashlight. They can open the door with their right pointer and inside they &rsquo;ll find a shelf with a Great Dane that &rsquo;s interactable. This is a reference to a Scooby Doo toy I had that used to make noise without batteries in my closet, and was one of the things that contributed to my fear of the dark. Another thing that the user can do is go up to the flashing phone. The user can then pick it up and press A. This will turn off the phone, which switches off the light and turns off the dial tone. Next to the table, where the phone was, there is a light switch. The user can turn on and off the lights when pointing at it with the right thumbstick. I recommend keeping the lights off, however, if your intention is to help your fear of the dark. The user can also head up the ramp, and they &rsquo;ll see a TV at the end of the upper level. By the TV, on the coffee table, is a remote that can turn on and off the TV if the user is grabbing it and they press the A button. Next to the couch is another button that can be activated by the right pointer, and this spawns in a new remote.</span>
+        </p>
+        <p class="c10">
+            <span class="c3"></span>
+        </p>
+        <p class="c10">
+            <span class="c3">I believe that this application can help users with a fear of the dark because it captures many aspects that can make that fear worse in the moment. This includes ominous background music, noises that can be somewhat unsettling particularly in the dark (the dial tone and tv static), as well as only having a flashlight which limits what the user can see making the unlit area part of the unknown, which I feel is a big part of a fear of the dark. However, as the user explores they discover that the source of these sounds is all relatively innocuous. The phone is just a phone and the TV is a TV after all. Another aspect of the application that I believe helps users with a fear of the dark is the fact that it &rsquo;s an application and the graphics are particularly unrealistic (mostly simple shapes). This gives the user the ability to safely simulate their fear of the dark in a less real environment, and can help them get more used to the concept of darkness without being in actual darkness.</span>
+        </p>
+        <h2 class="c9" id="h.gpx2uztxrbfj">
+            <span class="c5">Resources Used</span>
+        </h2>
+        <h4 class="c7" id="h.pl3d5bxsvh9k">
+            <span class="c8">Web Models (Satisfies 15 Web Models)</span>
+        </h4>
+        <ol class="c1 lst-kix_o8d8hxjxkgs0-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">TV Stand, &quot;Low Poly Style TV Stand &quot;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://sketchfab.com/3d-models/low-poly-style-tv-stand-5f1c9e89090e4c079abddbb850afe159&amp;sa=D&amp;source=editors&amp;ust=1634552450539000&amp;usg=AOvVaw0HSNjCtNgY2M_1VKvnqsyx">https://sketchfab.com/3d-models/low-poly-style-tv-stand-5f1c9e89090e4c079abddbb850afe159</a>
+                </span>
+                <span class="c3">&nbsp;) by Digitalis Reality (</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://sketchfab.com/digitalisreality&amp;sa=D&amp;source=editors&amp;ust=1634552450540000&amp;usg=AOvVaw1g7yH4zOBphYU9OeVGRnyI">https://sketchfab.com/digitalisreality</a>
+                </span>
+                <span class="c3">&nbsp;) licensed under CC-BY-4.0 (</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=http://creativecommons.org/licenses/by/4.0/&amp;sa=D&amp;source=editors&amp;ust=1634552450540000&amp;usg=AOvVaw1g-ntzty364ybfVRHzu222">http://creativecommons.org/licenses/by/4.0/</a>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Coffee Table, &quot;Lowpoly Coffee table &quot;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://sketchfab.com/3d-models/lowpoly-coffee-table-24bda8a15d4e4f16b5fca86c153aa8b5&amp;sa=D&amp;source=editors&amp;ust=1634552450540000&amp;usg=AOvVaw2UZJ2RQT8YilH_9x6XDbCL">https://sketchfab.com/3d-models/lowpoly-coffee-table-24bda8a15d4e4f16b5fca86c153aa8b5</a>
+                </span>
+                <span class="c3">&nbsp;) by Petra K (</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://sketchfab.com/petrakot&amp;sa=D&amp;source=editors&amp;ust=1634552450540000&amp;usg=AOvVaw2fECgRry3bMsOeFs7bpZNA">https://sketchfab.com/petrakot</a>
+                </span>
+                <span class="c3">&nbsp;) licensed under CC-BY-4.0 (</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=http://creativecommons.org/licenses/by/4.0/&amp;sa=D&amp;source=editors&amp;ust=1634552450541000&amp;usg=AOvVaw1E1ZmYmbQBegP0yf9d0WFF">http://creativecommons.org/licenses/by/4.0/</a>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Metal Shelf,&quot;Metal Simple Shelf &quot;(https://sketchfab.com/3d-models/metal-simple-shelf-04424177a85045d7907a0ca26d1b05fa) by Inglemere (</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://sketchfab.com/Inglemere&amp;sa=D&amp;source=editors&amp;ust=1634552450541000&amp;usg=AOvVaw1pMNf-ZQBmsW2SNMI5Qn9a">https://sketchfab.com/Inglemere</a>
+                </span>
+                <span class="c3">&nbsp;) licensed under CC-BY-4.0 (</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=http://creativecommons.org/licenses/by/4.0/&amp;sa=D&amp;source=editors&amp;ust=1634552450541000&amp;usg=AOvVaw1E1ZmYmbQBegP0yf9d0WFF">http://creativecommons.org/licenses/by/4.0/</a>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Phone, &quot;Phone from Poly by Google &quot;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://sketchfab.com/3d-models/phone-from-poly-by-google-9901c7cce9d74a48bd15c9bb290b6fce&amp;sa=D&amp;source=editors&amp;ust=1634552450541000&amp;usg=AOvVaw0Djcg5LB2bpzr1yTPccaXg">https://sketchfab.com/3d-models/phone-from-poly-by-google-9901c7cce9d74a48bd15c9bb290b6fce</a>
+                </span>
+                <span class="c3">&nbsp;) by IronEqual (</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://sketchfab.com/ie-niels&amp;sa=D&amp;source=editors&amp;ust=1634552450542000&amp;usg=AOvVaw3AI78gpW9bEunmuyRLWL5B">https://sketchfab.com/ie-niels</a>
+                </span>
+                <span class="c3">&nbsp;) licensed under CC-BY-4.0 (</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=http://creativecommons.org/licenses/by/4.0/&amp;sa=D&amp;source=editors&amp;ust=1634552450542000&amp;usg=AOvVaw01yteqP9R5K58xONvS-ldj">http://creativecommons.org/licenses/by/4.0/</a>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Great Dane, &ldquo;Low Poly Great Dane Dog &rdquo;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://sketchfab.com/3d-models/low-poly-cartoon-great-dane-dog-5c53f2187f7a455f9a67d37dca77b92a&amp;sa=D&amp;source=editors&amp;ust=1634552450542000&amp;usg=AOvVaw3qYZpKHrDGoZCdqrRqCH0C">https://sketchfab.com/3d-models/low-poly-cartoon-great-dane-dog-5c53f2187f7a455f9a67d37dca77b92a</a>
+                </span>
+                <span class="c3">&nbsp;) by chroma3d (</span>
+                <span class="c2">
+                    <a class="c60" href="https://www.google.com/url?q=https://sketchfab.com/vendol21&amp;sa=D&amp;source=editors&amp;ust=1634552450542000&amp;usg=AOvVaw1RTzGJu0Ld8tnLSV9htpWq">https://sketchfab.com/vendol21</a>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c17">The Following Are All From This Asset Pack: &ldquo;</span>
+                <span class="c3">Low Poly Modular Office Pack &rdquo;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://assetstore.unity.com/packages/3d/environments/urban/low-poly-modular-office-pack-183564&amp;sa=D&amp;source=editors&amp;ust=1634552450543000&amp;usg=AOvVaw1DVdz7ItYAq0H1SLdzhwaK">https://assetstore.unity.com/packages/3d/environments/urban/low-poly-modular-office-pack-183564</a>
+                </span>
+                <span class="c3">&nbsp;) by Soup Games(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://assetstore.unity.com/publishers/34585&amp;sa=D&amp;source=editors&amp;ust=1634552450543000&amp;usg=AOvVaw2Eh9ligQT1guzVYt7ps_e1">https://assetstore.unity.com/publishers/34585</a>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+        </ol>
+        <ol class="c99 lst-kix_vll4c6mjz9d1-1 start" start="1">
+            <li class="c22 li-bullet-0">
+                <span class="c3">
+                    Couch, &ldquo;sofa2_r &rdquo;<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c22 li-bullet-0">
+                <span class="c3">
+                    Meeting Table, &ldquo;table_meeting &rdquo;<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c22 li-bullet-0">
+                <span class="c3">
+                    Regular Table, &ldquo;table02 &rdquo;<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c22 li-bullet-0">
+                <span class="c3">
+                    Clip Board, &ldquo;clipboard &rdquo;<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c22 li-bullet-0">
+                <span class="c3">
+                    Books, &ldquo;books01 &rdquo;<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c22 li-bullet-0">
+                <span class="c3">
+                    Trash Can, &ldquo;bin_full &rdquo;<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c22 li-bullet-0">
+                <span class="c3">
+                    Low Cabinet, &ldquo;cabinet01 &rdquo;<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c22 li-bullet-0">
+                <span class="c3">
+                    Tall Cabinet, &ldquo;cabinet06 &rdquo;<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c22 li-bullet-0">
+                <span class="c3">
+                    Fridge, &ldquo;kitchen02 &rdquo;<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c22 li-bullet-0">
+                <span class="c3">Sink, &ldquo;kitchen01 &rdquo;</span>
+            </li>
+        </ol>
+        <h4 class="c7" id="h.9fhk4njw0vx7">
+            <span class="c8">Sounds</span>
+        </h4>
+        <ol class="c99 lst-kix_vrwumvjobevb-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">Rain Sounds, &ldquo;Light rain looping &rdquo;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://mixkit.co/free-sound-effects/rain/&amp;sa=D&amp;source=editors&amp;ust=1634552450544000&amp;usg=AOvVaw1usCrWDzOr67xSOthNfQI5">https://mixkit.co/free-sound-effects/rain/</a>
+                </span>
+                <span class="c3">
+                    ) by Mixkit<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Dial Tone, &ldquo;Dial phone tone &rdquo;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://mixkit.co/free-sound-effects/tones/&amp;sa=D&amp;source=editors&amp;ust=1634552450545000&amp;usg=AOvVaw2nXydQoJdNF_Xtl5Fneh2r">https://mixkit.co/free-sound-effects/tones/</a>
+                </span>
+                <span class="c3">
+                    ) by Mixkit<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Flash Light Thud, &ldquo;Metal tool drop &rdquo;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://mixkit.co/free-sound-effects/metal/&amp;sa=D&amp;source=editors&amp;ust=1634552450545000&amp;usg=AOvVaw1rGmOzUfG__edEyoWevyh5">https://mixkit.co/free-sound-effects/metal/</a>
+                </span>
+                <span class="c3">
+                    ) by Mixkit<br/>
+                </span>
+                <p class="c4 c14">
+                    <span class="c3"></span>
+                </p>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">TV Static, &ldquo;TV static free sound effect &rdquo;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3DlHO4VScoBoo&amp;sa=D&amp;source=editors&amp;ust=1634552450545000&amp;usg=AOvVaw1mvbuk4Cvmp76BmvWEPWzi">https://www.youtube.com/watch?v=lHO4VScoBoo</a>
+                </span>
+                <span class="c3">) by Dar Golan</span>
+            </li>
+        </ol>
+        <h4 class="c7" id="h.e03n54c9e6wu">
+            <span class="c8">Tutorials</span>
+        </h4>
+        <ol class="c22 lst-kix_177z9ckr90fj-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">Flickering Light, &ldquo;How To Make A Flickering Light &rdquo;(</span>
+                <span class="c2">
+                    <a class="c0" href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3DiCCFPOdUaNI&amp;sa=D&amp;source=editors&amp;ust=1634552450546000&amp;usg=AOvVaw1v64ZptAsZo8McwQUgR2wy">https://www.youtube.com/watch?v=iCCFPOdUaNI</a>
+                </span>
+                <span class="c3">) by Electronic Brain</span>
+            </li>
+        </ol>
+        <h2 class="c9" id="h.bt43yib1e0xz">
+            <span class="c5">Project Requirements</span>
+        </h2>
+        <h4 class="c7" id="h.c6n1aufoo3i9">
+            <span class="c8">Designed By Me</span>
+        </h4>
+        <ol class="c99 lst-kix_muomznq9uyx-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Flashlight</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Remote</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The TV</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Light Switch</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Door area</span>
+            </li>
+        </ol>
+        <h4 class="c7" id="h.95unlperjm45">
+            <span class="c8">Grabbable</span>
+        </h4>
+        <ol class="c99 lst-kix_nvweb4yheyqy-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Phone</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Flashlight</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Remote</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Great Dane</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Clipboard</span>
+            </li>
+        </ol>
+        <h4 class="c7" id="h.dqy227xpk699">
+            <span class="c8">Spawnable</span>
+        </h4>
+        <ol class="c99 lst-kix_huxnmdeb9cj0-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Flashlight</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Remote</span>
+            </li>
+        </ol>
+        <h4 class="c7" id="h.w1phyplz4hdq">
+            <span class="c8">Reactive Sounds</span>
+        </h4>
+        <ol class="c99 lst-kix_cfkaumoq0hfy-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">TV Static</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Flashlight Thud</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Rain By Window</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">The Phone Dial Tone</span>
+            </li>
+        </ol>
+        <h4 class="c7" id="h.lsocfbniyt9m">
+            <span class="c8">Ambient Sound</span>
+        </h4>
+        <ol class="c99 lst-kix_ivgsw4t62x9w-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">Ominous background music</span>
+            </li>
+        </ol>
+        <h4 class="c7" id="h.gn6kl2ic0lxp">
+            <span class="c8">Animation</span>
+        </h4>
+        <ol class="c99 lst-kix_k2mr6eph9pcw-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">Door Opening</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Blinking Phone Light</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Light Switch</span>
+            </li>
+        </ol>
+        <h4 class="c7" id="h.1loskd6rd4e3">
+            <span class="c8">Lighting Scheme</span>
+        </h4>
+        <ol class="c99 lst-kix_g3tcpbp05wfg-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">Changed to a more warm color when on and added moonlighting</span>
+            </li>
+        </ol>
+        <h4 class="c7" id="h.yizremvpwsc1">
+            <span class="c8">Unique Lights</span>
+        </h4>
+        <ol class="c99 lst-kix_qmcivcp6ajw3-0 start" start="1">
+            <li class="c6 li-bullet-0">
+                <span class="c3">Flashlight</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">TV Glow</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Blinking Phone Light</span>
+            </li>
+            <li class="c6 li-bullet-0">
+                <span class="c3">Flickering Light</span>
+            </li>
+        </ol>
+        <h2 class="c9" id="h.zijhgv2n5g5r">
+            <span class="c5">Frame Rate</span>
+        </h2>
+        <p class="c10">
+            <span class="c0">Since I wasn &rsquo;t able to finish the project until Saturday, and I added things to the application since Thursday that would have definitely affected the frame rate, I wasn &rsquo;t able to get any representative frame rate data.</span>
+        </p>
+        <h2 class="c9" id="h.a16vr4mhtuzg">
+            <span class="c5">Simulator Vs The Real Thing</span>
+        </h2>
+        <p class="c10">
+            <span class="c0">VR can be a truly immersive experience. It dominates your vision and you can easily lose sense of the real world. This creates a lot of real wonderful experiences, and we got a little taste of making some of these experiences with this project. That &rsquo;s why it becomes all the more evident that you can &rsquo;t truly experience these pieces of media through a simulator.</span>
+        </p>
+        <p class="c4 c14">
+            <span class="c3"></span>
+        </p>
+        <p class="c10">
+            <span class="c3">The problem with the simulator is that it almost completely eliminates all sense of immersion. Even with regular videogames one can get very immersed in the experience. Games like </span>
+            <span class="c3">Fallout</span>
+            <span class="c3">&nbsp;and </span>
+            <span class="c3">Dark Souls</span>
+            <span class="c3">&nbsp;can create worlds and experiences that are truly immersive despite being interacted with a controller or a keyboard and mouse. The simulator on the other hand breaks even that connection between controller and character and makes for a truly separated experience. By having the player move around the controller models and interact with the world through them you create an extra layer of separation. In VR you are the character, in a regular video game you are directly controlling a character. In the simulator you &rsquo;re moving some objects around the space in order to &ldquo;pick &rdquo;things up and activate things. This degree of separation is further amplified by having the player stop moving in order to move the controllers around the space. This is a very unnatural form of interacting. Humans in the real world are constantly moving to some extent, and when they pick something up many movements are happening in order to make that intent a reality. This is basically completely recreated inside VR with the exception of actually picking something up being a button. In standard videogames this is more or less represented by having the player press a simple button when looking at something and usually an animation accompanies it. In the simulation it &rsquo;s more or less like you &rsquo;re toggling between different states instead of being in some form of constant motion.</span>
+        </p>
+        <p class="c4 c14">
+            <span class="c3"></span>
+        </p>
+        <p class="c10">
+            <span class="c3">Now this doesn &rsquo;t mean the simulator doesn &rsquo;t have its uses. The main use for the simulator is the developing angle. It allows you to test various aspects of your VR game/application without having access to a headset all the time. This means that if you only have a headset at the office for example, or you &rsquo;re developing away from home, you have the ability to get some work done. However, in the end you &rsquo;re still going to want to test in VR at various points in development because that &rsquo;s the only true way to know if your application is immersive because of that degree of separation that comes with using the simulator.</span>
+        </p>
+        <p class="c4 c14">
+            <span class="c3"></span>
+        </p>
+        <p class="c10">
+            <span class="c3">All in all, while the simulator definitely has its uses in the developing space, it simply doesn &rsquo;t even compare to the immersion that comes from playing in actual VR or even some video games. The wall it puts up between you and the scene you &rsquo;re in puts it squarely in the development tool category.</span>
+        </p>
+        </body>
+    </div>
   )
 }
 

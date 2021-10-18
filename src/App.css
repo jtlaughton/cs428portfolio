@@ -67,6 +67,16 @@ table td,table th {
   font-style: normal
 }
 
+.c17{
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 11pt;
+  font-family: "Arial";
+  font-style: bold;
+}
+
 .c15 {
   padding-top: 0rem;
   padding-bottom: 1rem;
@@ -175,6 +185,22 @@ table td,table th {
 
 .c13 {
   margin-left: 1rem
+}
+
+.c22 {
+  margin-left: 1em;
+  padding-top: 0pt;
+  padding-left: 0pt;
+  padding-bottom: 0pt;
+  line-height: 1.15;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+.c99 {
+  padding: 0;
+  margin: 0
 }
 
 .title {
@@ -413,4 +439,20 @@ h6 {
   display: flex;
   justify-content: center;
   height: 90vh;
+}
+
+ol.lst-kix_vll4c6mjz9d1-1 {
+  list-style-type: none
+}
+
+.lst-kix_vll4c6mjz9d1-1>li {
+  counter-increment: lst-ctn-kix_vll4c6mjz9d1-1
+}
+
+.lst-kix_vll4c6mjz9d1-1>li:before {
+  content: "" counter(lst-ctn-kix_vll4c6mjz9d1-1,lower-latin) ". "
+}
+
+ol.lst-kix_vll4c6mjz9d1-1.start {
+  counter-reset: lst-ctn-kix_vll4c6mjz9d1-1 0
 }
