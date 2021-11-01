@@ -91,6 +91,9 @@ function App() {
                 <LinkContainer to="/proj3">
                   <Nav.Link>Project 3</Nav.Link>
                 </LinkContainer>
+                <LinkContainer to="/studentchoice">
+                    <Nav.Link> Student Choice</Nav.Link>
+                </LinkContainer>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -100,6 +103,7 @@ function App() {
           <Route exact path="/proj1" component={Proj1} />
           <Route exact path="/proj2" component={Proj2} />
           <Route exact path="/proj3" component={Proj3} />
+          <Route exact path="/studentchoice" component={StudentChoice}/>
     </HashRouter>
   );
 }
@@ -956,6 +960,21 @@ function Proj3() {
   return (
     <h1>Project 3</h1>
   )
+}
+
+function StudentChoice(){
+    return(
+        <div className="documentation">
+            <body class="c11">
+                <p class="c15 title" id="h.5f9t7jq13nkp">
+                    <span class="c12">Student Choice Topic: Deracine</span>
+                </p>
+                <p class="c10">
+                    <span class="c3"> Deracine is a PlayStation VR adventure game by FromSoftware. The goal of the game is to solve a mystery as a fairy. To do this you have to solve various simple puzzles and explore the various rooms of the boarding school that the game takes place in.</span>
+                </p>
+            </body>
+        </div>
+    )
 }
 
 export default App;
