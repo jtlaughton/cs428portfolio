@@ -33,6 +33,10 @@ import FlashLightSpawn from './Images/spawnable_sign.png';
 import TablePhone from './Images/table_with_phone.png';
 import TVStand from './Images/tv_with_stand.png';
 
+import ChoiceMain from './Images/deracine_main.jpg';
+import ChoiceGood from './Images/deracine_good_support.jpg';
+import ChoiceBad from './Images/psmove_pics.png';
+
 import YoutubeEmbed from "./YoutubeEmbed";
 
 import styled from "styled-components";
@@ -969,9 +973,93 @@ function StudentChoice(){
                 <p class="c15 title" id="h.5f9t7jq13nkp">
                     <span class="c12">Student Choice Topic: Deracine</span>
                 </p>
+                <h2 class="c9" id="h.94gya2l4qaot">
+                    <span class="c5">Introduction</span>
+                </h2>
+                <div className="body_container">
+                    <div className="body_paragraph_cont">
+                        <p class="c10">
+                            <span class="c3">Deracine is a VR game developed by FromSoftware for Playstation VR. The basic premise without any major spoilers is as follows. The player controls a faerie which in the context of the game is a being that can’t be perceived by others, but is able to affect the world around them in various ways. One of the main aspects of being a faerie in this world is the ability to collect life force and transfer it to living things through a red ring. This includes plants, animals, and even humans. In addition to transferring lifeforce, it can also be used to travel through time. Both of these powers are used in scripted events and some simple puzzles that progress the story.</span>
+                        </p>
+                        <p class="c10">
+                            <span class="c3">Outside of those two powers the player can also grab and interact with different objects. This plays a part in the various puzzles that the player has to solve, but also is one of the ways the player learns about the backstory and world of Deracine. Many of the items have item descriptions that give various information about the world.</span>
+                        </p>
+                    </div>
+                    <div className="body_img_container">
+                        <img src={ChoiceMain} className="body_img" alt="Deracine Intro"/>
+                    </div>
+                </div>
+                <h2 class="c9" id="h.94gya2l4qaot">
+                    <span class="c5">Intended Users</span>
+                </h2>
                 <p class="c10">
-                    <span class="c3"> Deracine is a PlayStation VR adventure game by FromSoftware. The goal of the game is to solve a mystery as a fairy. To do this you have to solve various simple puzzles and explore the various rooms of the boarding school that the game takes place in.</span>
+                    <span class="c3">The game is rated T and the subject matter is rather dark, so the age range is teenagers to adults. It is also built for PSVR exclusively so users would need to have a setup for that. The gameplay doesn’t require any skill and the pacing is pretty slow, so really anyone in the age group could play it.</span>
                 </p>
+                <h2 class="c9" id="h.94gya2l4qaot">
+                    <span class="c5">What's Good</span>
+                </h2>
+                <div className="body_container">
+                    <div className="body_paragraph_cont">
+                        <p class="c10">
+                            <span class="c3">Deracine is a good use of VR because it’s a solid example of how story driven titles can work in VR. One of the major problems with the current landscape of VR games is that there aren’t that many VR titles that have much focus on story elements. The main ones that are fairly popular are Half-Life Alyx, Skyrim VR, Resident Evil 4 VR, and Fallout 4 VR. Out of those however Half-Life Alyx is the only one that was originally built for VR. The other 3 are just ports of games that weren’t originally VR. So a big studio like FromSoftware coming out with a game that has a major focus on story/characters, that’s built exclusively for VR is a step in the right direction.</span>
+                        </p>
+                        <p class="c10">
+                            <span class="c3">The reason this is a step in the right direction is because VR is very uniquely suited to storytelling. VR brings the user a lot closer to the virtual world than a typical monitor/TV setup because they experience the world through their POV instead of a detached one in a typical 1st or 3rd person game. This can make the presence of even simple enemies a lot greater because it’s like they’re actually there to some extent. So it definitely heightens the presence and reality of characters in the game, as long as the characters themselves are designed well.</span>
+                        </p>
+                    </div>
+                    <div className="body_img_container">
+                        <img src={ChoiceGood} className="body_img" alt="Deracine Good"/>
+                    </div>
+                </div>
+                
+                <p class="c10">
+                    <span class="c3">Deracine definitely achieves this heightened sense of reality with its main characters.They respond to the various actions that you take, which gives them a sense of agency. They also have believable motivations in the world they’re in, and their dialogue is realistic and well acted which further adds to their presence. And so when you observe these well designed characters and interact with them in the headset it feels closer to actually being around a person than compared to any other gameplay format. This is demonstrated in this gameplay clip here at time 11:09 to 11:27:</span>
+                </p>
+                <YoutubeEmbed embedId="uW4DRE-vJLM"/>
+                <p class="c10">
+                    <span class="c3">In this scene Yuliya’s facial expressions and reactions really help establish her personhood, and when coupled with a VR headset it takes it to the next level.</span>
+                </p>
+                <p class="c10">
+                    <span class="c3">In addition to making characters more believable through VR, Deracine also takes good advantage of the interactable nature of VR as a narrative tool. Ever since Demon Souls, FromSoftware games often tell large parts of their story and lore through the use of item descriptions. Deracine also employs that technique as part of its storytelling, but it’s taken to the next level in VR. Since it’s VR you can get up close and personal with these items, and really study them. There’s also a greater sense of discovery because you yourself have to peer around the room and grab them instead of just pressing a button. This really helps elevate your role in the game as an invisible observer and agent.</span>
+                </p>
+                <h2 class="c9" id="h.94gya2l4qaot">
+                    <span class="c5">What's Bad</span>
+                </h2>
+                <p class="c10">
+                    <span class="c3">Despite Deracine’s good use of VR as a storytelling medium it does have one major flaw and that’s it’s gameplay. It doesn’t get that creative with the tools you are given. You’re given the ability to drain life and use it for various things, but there’s not much freedom with what you can and cannot drain. Some of the puzzles that involve this mechanic could definitely benefit from more freedom of choice because it would allow the player to be more creative with their solutions and give the puzzles a bit more depth.</span>
+                </p>
+                <p class="c10">
+                    <span class="c3">In addition to allowing more creativity in the puzzles, the game could also benefit from allowing time to flow when interacting with the world. Time stands still while the player grabs objects and solves puzzles and this can make the characters feel stiff most of the time then suddenly vibrant and real. This is for narrative reasons, but I do think that the narrative probably should have been tweaked to make this occur less frequently because it prevents the good things I already talked about from being even better. It could also add another element of “action/reaction” from the characters which would make them feel even more alive.</span>
+                </p>
+                <div className="body_container">
+                    <p class="c10">
+                        <span class="c3">Another big issue is the platform it runs on. Being an exclusive to Playstation VR means it comes with certain limitations. Firstly, the Playstation Move controllers don’t have joysticks, and for a story based game such as this being able to move with joysticks would definitely aid in immersion. Second, PSVR doesn’t support roomscale inherently since it’s only one camera bar, so this definitely hurts the immersion since you can’t turn 360 degrees.</span>
+                    </p>
+                    <div className="body_img_container">
+                        <img src={ChoiceBad} className="body_img_alt" alt="Deracine Bad"/>
+                    </div>
+                </div>
+                <h2 class="c9" id="h.94gya2l4qaot">
+                    <span class="c5">References</span>
+                </h2>
+                <ol class="c99 lst-kix_qmcivcp6ajw3-0 start" start="1">
+                    <li class="c6 li-bullet-0">
+                        <span class="c3">Main Image: </span>
+                        <span class="c2"><a class="c0" href="https://www.youtube.com/watch?v=_-nqpGIOM7g">https://www.youtube.com/watch?v=_-nqpGIOM7g</a></span>
+                    </li>
+                    <li class="c6 li-bullet-0">
+                        <span class="c3">Image In "What's Good": </span>
+                        <span class="c2"><a class="c0" href="https://hardcoregamer.com/news/deracine-pops-onto-psvr-tomorrow/317106/">https://hardcoregamer.com/news/deracine-pops-onto-psvr-tomorrow/317106/</a></span>
+                    </li>
+                    <li class="c6 li-bullet-0">
+                        <span class="c3">Playstation Move Controllers: </span>
+                        <span class="c2"><a class="c0" href="https://www.playstation.com/en-us/accessories/playstation-move-motion-controller/">https://www.playstation.com/en-us/accessories/playstation-move-motion-controller/</a></span>
+                    </li>
+                    <li class="c6 li-bullet-0">
+                        <span class="c3">Information About Game: </span>
+                        <span class="c2"><a class="c0" href="https://www.youtube.com/watch?v=2fqHnvyNWIo">https://www.youtube.com/watch?v=2fqHnvyNWIo</a></span>
+                    </li>
+                </ol>
             </body>
         </div>
     )

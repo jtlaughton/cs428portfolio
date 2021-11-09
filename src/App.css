@@ -326,8 +326,20 @@ h6 {
   justify-content: center;
 }
 
+.body_paragraph_cont{
+  display: flex;
+  flex-direction: column;
+}
+
 .body_img{
   object-fit: cover;
+  width: 12rem;
+  height: 12rem;
+  border-radius: .5rem;
+}
+
+.body_img_alt{
+  object-fit: contain;
   width: 12rem;
   height: 12rem;
   border-radius: .5rem;
