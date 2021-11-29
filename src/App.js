@@ -1100,8 +1100,8 @@ function Proj3() {
                 <p class="c10">
                     <span class="c3">This project is built on top of the previous project so all the things you could do in the previous project you can do in here. However, this adds some other functionality. For starters there is a menu that the player can pull up and put away at any time by pressing the X button on the left Oculus controller. This allows the user to teleport to the four different scenes: original, Mego’s Playset, Land of the Giants, and Dancing on the Ceiling. You can teleport to these by using your pointer on the right controller.</span>
                 </p>
-                <p class="c10">
-                    <span class="c3"/>
+                <p class="c4 c14">
+                    <span class="c3"></span>
                 </p>
                 <p class="c10">
                     <span class="c3">Each scene offers a different experience. The Mego’s Playset allows you to interact with the original scene as if it was a playset, and pick up different things in the scene, as well as take off the roof, as well as the front and back walls. There is also a lantern that the user can pick up to change the lighting in the scene depending on where they are holding it. There’s also some action figures that the user can pick up and put into the scene. The roof and walls can be put back on by placing them near their respective locations, and then they will snap to position. The Land of the Giants scene provides some new things for the user to pick up, and obviously makes them smaller. You can get to the different tables and interactables through various climbables such as ladders and a kitchen cabinet. Outside of that the scene functions exactly the same as the original. In the Dancing on the Ceiling version the user gets two new options in their menu to rotate the scene clockwise or counter clockwise 90 degrees. The various pieces of furniture react to gravity and can be picked up to prevent the user from getting stuck under them.</span>
@@ -1352,24 +1352,24 @@ function Proj3() {
                         Going through the different scenes definitely leaves a different impression when compared to the original scene, and when compared to each other. Starting with the Mego’s Playset scene, the impression/perspective this gives is one of someone playing with an actual playset. Everything feels like it’s under control, and you don’t have the feeling of a participant, but rather a viewer who can direct the actions and events inside the playset. This effectively removes any associated fear from the scene as well because you are an onlooker and you have control over everything for the most part.
                         </span>
                     </p>
-                    <p class="c10">
-                        <span class="c3"/>
+                    <p class="c4 c14">
+                        <span class="c3"></span>
                     </p>
                     <p class="c10">
                         <span class="c3">
                         The Land of the Giants version I feel heightens the associated fear factor of the scene because you are now an active participant again and you are also considerably smaller. Being smaller makes the surrounding scenery a lot more daunting, and leaves a larger impression. You start to feel a lot more vulnerable, and as a result the fear of the dark is made a bit worse.
                         </span>
                     </p>
-                    <p class="c10">
-                        <span class="c3"/>
+                    <p class="c4 c14">
+                        <span class="c3"></span>
                     </p>
                     <p class="c10">
                         <span class="c3">
                         The Dancing on the Ceiling version I don’t think changes all that much compared to the original version. The perspective and setting is basically the same as the original scene, so the associated fear impacts about the same. It is diminished when you start to rotate the scene. It adds a bit of zaniness that otherwise wouldn’t be there which helps disassociate the scene from the intended fear.
                         </span>
                     </p>
-                    <p class="c10">
-                        <span class="c3"/>
+                    <p class="c4 c14">
+                        <span class="c3"></span>
                     </p>
                     <p class="c10">
                         <span class="c3">
