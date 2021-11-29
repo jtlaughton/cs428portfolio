@@ -1089,10 +1089,13 @@ function Proj3() {
   return (
     <div className="documentation">
         <body class="c11">
-            <h1>Project 3</h1>
             <p class="c15 title" id="h.5f9t7jq13nkp">
                 <span class="c12">Project 3</span>
             </p>
+            <h2 class="c9" id="h.94gya2l4qaot">
+                <span class="c5">YouTube Video</span>
+            </h2>
+            <YoutubeEmbed embedId="hSIuP0xbslU"/>
             <h2 class="c9" id="h.94gya2l4qaot">
                     <span class="c5">Introduction</span>
             </h2>
@@ -1342,6 +1345,123 @@ function Proj3() {
                     </div>
                 </div>
             </div>
+            <h2 class="c9" id="h.94gya2l4qaot">
+                <span class="c5">Project Requirements</span>
+            </h2>
+            <h4 class="c7" id="h.gn6kl2ic0lxp">
+                <span class="c8">Mego's Playset</span>
+            </h4>
+            <ol class="c1 lst-kix_o8d8hxjxkgs0-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Animated Action Figures</span>
+                    <p class="c4 c14">
+                        <span class="c3"></span>
+                    </p>
+
+                    <ol class="c99 lst-kix_vll4c6mjz9d1-1 start" start="1">
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Knight: Strong pose animation</span>
+                        </li>
+                        <p class="c4 c14">
+                            <span class="c3"></span>
+                        </p>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Peasant: Terrified animation</span>
+                        </li>
+                    </ol>
+                    <p class="c4 c14">
+                        <span class="c3"></span>
+                    </p>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Dynamic Lamp: Lantern with point light that turns on and off</span>
+                </li>
+            </ol>
+            <h4 class="c7" id="h.gn6kl2ic0lxp">
+                <span class="c8">Mego's Playset</span>
+            </h4>
+            <ol class="c1 lst-kix_o8d8hxjxkgs0-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">12 New Models</span>
+                    <p class="c4 c14">
+                        <span class="c3"></span>
+                    </p>
+                    <ol class="c99 lst-kix_vll4c6mjz9d1-1 start" start="1">
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Pencil</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Paper Punch (Grabbable)</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Noodle Box (Grabbable)</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Red Cup (Grabbable)</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Coffee (Grabbable)</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Calculator (Grabbable)</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Floppy Disk (Grabbable)</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">CD (Grabbable)</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Stapler (Grabbable)</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Scissors</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Folders</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c22 li-bullet-0">
+                            <span class="c3">Coffee Machin</span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
             <h2 class="c9" id="h.94gya2l4qaot">
                 <span class="c5">Different Perspectives</span>
             </h2>
