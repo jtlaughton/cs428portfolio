@@ -1378,7 +1378,7 @@ function Proj3() {
                 </li>
             </ol>
             <h4 class="c7" id="h.gn6kl2ic0lxp">
-                <span class="c8">Mego's Playset</span>
+                <span class="c8">Land of the Giants</span>
             </h4>
             <ol class="c1 lst-kix_o8d8hxjxkgs0-0 start" start="1">
                 <li class="c6 li-bullet-0">
