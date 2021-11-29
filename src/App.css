@@ -498,4 +498,25 @@ ol.lst-kix_vll4c6mjz9d1-1.start {
   flex-direction: column;
   width: 11rem;
   height: 11rem;
+<<<<<<< Updated upstream
+=======
+}
+
+.image-cont2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 11rem;
+  height: 11rem;
+  margin-bottom: 2em;
+}
+
+.paper-image-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.paper-content-area {
+  width: 75%;
+>>>>>>> Stashed changes
 }

@@ -37,6 +37,19 @@ import ChoiceMain from './Images/deracine_main.jpg';
 import ChoiceGood from './Images/deracine_good_support.jpg';
 import ChoiceBad from './Images/psmove_pics.png';
 
+<<<<<<< Updated upstream
+=======
+//pictures for project 3
+import ceiling from './Images/ceiling.png';
+import mego from './Images/megos.png';
+import giants from './Images/giants.png';
+import coffeemachine_coffee from './Images/coffeemachine_coffee.png';
+import cup_noodles from './Images/cup_noodles.png';
+import folders_cd_floppy_calculator from './Images/folders_cd_floppy_calculator.png';
+import lantern_actionfigures from './Images/lantern_actionfigures.png';
+import puncher_pencil_stapler_scissors from './Images/puncher_pencil_stapler_scissors.png'; 
+
+>>>>>>> Stashed changes
 import YoutubeEmbed from "./YoutubeEmbed";
 
 import styled from "styled-components";
@@ -762,6 +775,7 @@ function Proj2() {
         </h2>
         <div class="bullet-image-cont">
             <div class="bullet-content-area">
+<<<<<<< Updated upstream
         <h4 class="c7" id="h.c6n1aufoo3i9">
             <span class="c8">Designed By Me</span>
         </h4>
@@ -877,6 +891,123 @@ function Proj2() {
                 <span class="c3">Flickering Light</span>
             </li>
         </ol>
+=======
+            <h4 class="c7" id="h.c6n1aufoo3i9">
+                <span class="c8">Designed By Me</span>
+            </h4>
+            <ol class="c99 lst-kix_muomznq9uyx-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Flashlight</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Remote</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The TV</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Light Switch</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Door area</span>
+                </li>
+            </ol>
+            <h4 class="c7" id="h.95unlperjm45">
+                <span class="c8">Grabbable</span>
+            </h4>
+            <ol class="c99 lst-kix_nvweb4yheyqy-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Phone</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Flashlight</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Remote</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Great Dane</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Clipboard</span>
+                </li>
+            </ol>
+            <h4 class="c7" id="h.dqy227xpk699">
+                <span class="c8">Spawnable</span>
+            </h4>
+            <ol class="c99 lst-kix_huxnmdeb9cj0-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Flashlight</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Remote</span>
+                </li>
+            </ol>
+            <h4 class="c7" id="h.w1phyplz4hdq">
+                <span class="c8">Reactive Sounds</span>
+            </h4>
+            <ol class="c99 lst-kix_cfkaumoq0hfy-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">TV Static</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Flashlight Thud</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Rain By Window</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">The Phone Dial Tone</span>
+                </li>
+            </ol>
+            <h4 class="c7" id="h.lsocfbniyt9m">
+                <span class="c8">Ambient Sound</span>
+            </h4>
+            <ol class="c99 lst-kix_ivgsw4t62x9w-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Ominous background music</span>
+                </li>
+            </ol>
+            <h4 class="c7" id="h.gn6kl2ic0lxp">
+                <span class="c8">Animation</span>
+            </h4>
+            <ol class="c99 lst-kix_k2mr6eph9pcw-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Door Opening</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Blinking Phone Light</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Light Switch</span>
+                </li>
+            </ol>
+            <h4 class="c7" id="h.1loskd6rd4e3">
+                <span class="c8">Lighting Scheme</span>
+            </h4>
+            <ol class="c99 lst-kix_g3tcpbp05wfg-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Changed to a more warm color when on and added moonlighting</span>
+                </li>
+            </ol>
+            <h4 class="c7" id="h.yizremvpwsc1">
+                <span class="c8">Unique Lights</span>
+            </h4>
+            <ol class="c99 lst-kix_qmcivcp6ajw3-0 start" start="1">
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Flashlight</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">TV Glow</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Blinking Phone Light</span>
+                </li>
+                <li class="c6 li-bullet-0">
+                    <span class="c3">Flickering Light</span>
+                </li>
+            </ol>
+>>>>>>> Stashed changes
         </div>
         <div class="image-stack">
             <div class='image-cont'>
@@ -899,9 +1030,15 @@ function Proj2() {
                 <img src={TablePhone} class="other-body-img" alt='Sky Tree'/>
                 <span class='caption'>Phone Table And Trash Bin</span>
             </div>
+<<<<<<< Updated upstream
             </div>
 
             <div class="image-stack">
+=======
+        </div>
+
+        <div class="image-stack">
+>>>>>>> Stashed changes
             <div class='image-cont'>
                 <img src={Doorway} class="other-body-img" alt='Sky Tree'/>
                 <span class='caption'>Doorway</span>
@@ -962,7 +1099,316 @@ function Proj2() {
 
 function Proj3() {
   return (
+<<<<<<< Updated upstream
     <h1>Project 3</h1>
+=======
+    <div className="documentation">
+        <body class="c11">
+            <p class="c15 title" id="h.5f9t7jq13nkp">
+                <span class="c12">Project 3</span>
+            </p>
+            <h2 class="c9" id="h.94gya2l4qaot">
+                    <span class="c5">Introduction</span>
+            </h2>
+            {/* <div className="body_container"> */}
+                <p class="c10">
+                    <span class="c3">This project is built on top of the previous project so all the things you could do in the previous project you can do in here. However, this adds some other functionality. For starters there is a menu that the player can pull up and put away at any time by pressing the X button on the left Oculus controller. This allows the user to teleport to the four different scenes: original, Mego’s Playset, Land of the Giants, and Dancing on the Ceiling. You can teleport to these by using your pointer on the right controller.</span>
+                </p>
+                <p class="c10">
+                    <span class="c3"/>
+                </p>
+                <p class="c10">
+                    <span class="c3">Each scene offers a different experience. The Mego’s Playset allows you to interact with the original scene as if it was a playset, and pick up different things in the scene, as well as take off the roof, as well as the front and back walls. There is also a lantern that the user can pick up to change the lighting in the scene depending on where they are holding it. There’s also some action figures that the user can pick up and put into the scene. The roof and walls can be put back on by placing them near their respective locations, and then they will snap to position. The Land of the Giants scene provides some new things for the user to pick up, and obviously makes them smaller. You can get to the different tables and interactables through various climbables such as ladders and a kitchen cabinet. Outside of that the scene functions exactly the same as the original. In the Dancing on the Ceiling version the user gets two new options in their menu to rotate the scene clockwise or counter clockwise 90 degrees. The various pieces of furniture react to gravity and can be picked up to prevent the user from getting stuck under them.</span>
+                </p>
+            {/* </div> */}
+            <h2 class="c9" id="h.94gya2l4qaot">
+                <span class="c5">Build Instructions</span>
+            </h2>
+            <p class="c10">
+                <span class="c3">Connect the Quest headset to your computer via a USB cable. In the headset make sure to allow the device to access data. If the option doesn’t show up, go to quick settings on the left, then to settings on top right of quick settings, and scroll down to Developer and turn on USB Connection Dialog. Now in the Unity editor make sure the main scene is open. A mostly unlit office should be viewable if you are in the correct scene. If not, in the project view to the right of the game view navigate to Assets->Scenes and double click ScareCoOffices. Now navigate to build settings via File -> Build Settings. Click on the android section in the list on the left. Make sure to switch platform to android by clicking the button on the bottom right of the Build Settings window. Now the Quest device you connected should show up under the Run Device list. Now click Build and Run. When the build is finished you can unplug the headset and put it on. In the Quest you navigate to Apps, click on the drop down at the top, and find the Unknown Sources section. From here you can run the application.</span>
+            </p>
+            <h2 class="c9" id="h.94gya2l4qaot">
+                <span class="c5">Software Versions</span>
+            </h2>
+            <p class="c10">
+                <span class="c3">Unity Version: 2019.4.28f, VRTK Version: V4</span>
+            </p>
+            <h2 class="c9" id="h.94gya2l4qaot">
+                <span class="c5">GitHub Link</span>
+            </h2>
+            <p class="c10">
+                <span class="c2">
+                    <a class="c0" href="https://github.com/jtlaughton/CS428Project3">https://github.com/jtlaughton/CS428Project3</a>
+                </span>
+            </p>
+            <h2 class="c9" id="h.94gya2l4qaot">
+                <span class="c5">New Resources Used</span>
+            </h2>
+            <h4 class="c7" id="h.gn6kl2ic0lxp">
+                <span class="c8">Mego's Playset</span>
+            </h4>
+            <div className="bullet-image-cont">
+                <div className="bullet-content-area">
+                    <ol class="c1 lst-kix_o8d8hxjxkgs0-0 start" start="1">
+                        <li class="c6 li-bullet-0">
+                            <span class="c3"><strong>The Following Are All From This Asset Pack:</strong> “POLYGON Adventure - Low Poly 3D Art by Synty”(</span>
+                            <span class="c2">
+                                <a class="c0" href="https://assetstore.unity.com/packages/3d/environments/fantasy/polygon-adventure-low-poly-3d-art-by-synty-80585">https://assetstore.unity.com/packages/3d/environments/fantasy/polygon-adventure-low-poly-3d-art-by-synty-80585</a>
+                            </span>
+                            <span class="c3">&nbsp;) by Synty Studios(</span>
+                            <span class="c2">
+                                <a class="c0" href="https://assetstore.unity.com/publishers/5217">https://assetstore.unity.com/publishers/5217</a>
+                            </span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+
+                            <ol class="c99 lst-kix_vll4c6mjz9d1-1 start" start="1">
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                        The Peasant Action Figure, “Character_Peasant_White”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                        The Knight Action Figure, “Character_Knight_Black”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="c6 li-bullet-0">
+                            <span class="c3">Terrified Animation by Mixamo:(</span>
+                            <span class="c2">
+                                <a class="c0" href="https://www.mixamo.com/#/?page=1&query=Terrified">https://www.mixamo.com/#/?page=1&query=Terrified</a>
+                            </span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c6 li-bullet-0">
+                            <span class="c3">Strong Gesture by Mixamo:(</span>
+                            <span class="c2">
+                                <a class="c0" href="https://www.mixamo.com/#/?page=1&query=Strong+Gesture">https://www.mixamo.com/#/?page=1&query=Strong+Gesture</a>
+                            </span>
+
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                        <li class="c6 li-bullet-0">
+                            <span class="c3">"Low Poly Lantern" (</span>
+                            <span class="c2">
+                                <a class="c0" href="(https://sketchfab.com/3d-models/low-poly-lantern-c9cf600cb9f841e29ca99da11491281d">(https://sketchfab.com/3d-models/low-poly-lantern-c9cf600cb9f841e29ca99da11491281d</a>
+                            </span>
+                            <span class="c3">&nbsp;) by richmondshanon(</span>
+                            <span class="c2">
+                                <a class="c0" href="https://sketchfab.com/richmondshanon">https://sketchfab.com/richmondshanon</a>
+                            </span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+                        </li>
+                    </ol>
+                    <h4 class="c7" id="h.gn6kl2ic0lxp">
+                        <span class="c8">Land of the Giants</span>
+                    </h4>
+                    <ol class="c1 lst-kix_o8d8hxjxkgs0-0 start" start="1">
+                        <li class="c6 li-bullet-0">
+                            <span class="c3"><strong>The Following Are All From This Asset Pack:</strong> “Low Poly Modular Office Pack”(</span>
+                            <span class="c2">
+                                <a class="c0" href="(https://assetstore.unity.com/packages/3d/environments/urban/low-poly-modular-office-pack-183564">(https://assetstore.unity.com/packages/3d/environments/urban/low-poly-modular-office-pack-183564</a>
+                            </span>
+                            <span class="c3">&nbsp;) by Soup Games(</span>
+                            <span class="c2">
+                                <a class="c0" href="https://assetstore.unity.com/publishers/34585">https://assetstore.unity.com/publishers/34585</a>
+                            </span>
+                            <p class="c4 c14">
+                                <span class="c3"></span>
+                            </p>
+
+                            <ol class="c99 lst-kix_vll4c6mjz9d1-1 start" start="1">
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Pencil, “pencil01”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Paper Punch, “paper_punch”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Noodle Box, “noodle_box”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Red Cup, “cup_red”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Coffee, “coffee”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Calculator, “calculator”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Floppy Disk, “floppy_disk”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    CD, “cd01”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Stapler, “stapler”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Scissors, “scissors01”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Folders: “folder01”, “folder02”, “folder03
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                                <li class="c22 li-bullet-0">
+                                    <span class="c3">
+                                    Coffee Machine: “coffeemachine_grey”
+                                    </span>
+                                    <p class="c4 c14">
+                                        <span class="c3"></span>
+                                    </p>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <div className="image-stack">
+                    <div class='image-cont2'>
+                        <img src={lantern_actionfigures} class="other-body-img" alt='Latern and Action Figures'/>
+                        <span class='caption'>Lantern and Action Figures</span>
+                    </div>
+                    <div class='image-cont2'>
+                        <img src={puncher_pencil_stapler_scissors} class="other-body-img" alt='Puncher, Pencil, Stapler, Scissors'/>
+                        <span class='caption'>Puncher, Pencil, Stapler, Scissors</span>
+                    </div>
+                    <div class='image-cont2'>
+                        <img src={folders_cd_floppy_calculator} class="other-body-img" alt='Folders, CD, Floppy, Calculator'/>
+                        <span class='caption'>Folders, CD, Floppy, Calculator</span>
+                    </div>
+                    <div class='image-cont2'>
+                        <img src={cup_noodles} class="other-body-img" alt='Cup and Noodles'/>
+                        <span class='caption'>Cup and Noodles</span>
+                    </div>
+                    <div class='image-cont2'>
+                        <img src={coffeemachine_coffee} class="other-body-img" alt='Coffee Machin and Coffee'/>
+                        <span class='caption'>Coffee Machin and Coffee</span>
+                    </div>
+                </div>
+            </div>
+            <h2 class="c9" id="h.94gya2l4qaot">
+                <span class="c5">Different Perspectives</span>
+            </h2>
+            <div className="paper-image-cont">
+                <div className="paper-content-area">
+                    <p class="c10">
+                        <span class="c3">
+                        Going through the different scenes definitely leaves a different impression when compared to the original scene, and when compared to each other. Starting with the Mego’s Playset scene, the impression/perspective this gives is one of someone playing with an actual playset. Everything feels like it’s under control, and you don’t have the feeling of a participant, but rather a viewer who can direct the actions and events inside the playset. This effectively removes any associated fear from the scene as well because you are an onlooker and you have control over everything for the most part.
+                        </span>
+                    </p>
+                    <p class="c10">
+                        <span class="c3"/>
+                    </p>
+                    <p class="c10">
+                        <span class="c3">
+                        The Land of the Giants version I feel heightens the associated fear factor of the scene because you are now an active participant again and you are also considerably smaller. Being smaller makes the surrounding scenery a lot more daunting, and leaves a larger impression. You start to feel a lot more vulnerable, and as a result the fear of the dark is made a bit worse.
+                        </span>
+                    </p>
+                    <p class="c10">
+                        <span class="c3"/>
+                    </p>
+                    <p class="c10">
+                        <span class="c3">
+                        The Dancing on the Ceiling version I don’t think changes all that much compared to the original version. The perspective and setting is basically the same as the original scene, so the associated fear impacts about the same. It is diminished when you start to rotate the scene. It adds a bit of zaniness that otherwise wouldn’t be there which helps disassociate the scene from the intended fear.
+                        </span>
+                    </p>
+                    <p class="c10">
+                        <span class="c3"/>
+                    </p>
+                    <p class="c10">
+                        <span class="c3">
+                        I think the main practical use case here is that each scene affects how the fear comes across. Each scene either takes away from the fear or adds to it, so if this was being deployed to help someone the different scenes could be helpful in combating their fear. For example to start out the user could use the Dancing on the Ceiling version to have an easier time adjusting to their fear, then move onto the original for the normal experience, then when they overcome that move onto the Land of the Giants version for a heightened experience, and then finally play around with the Mego’s Playset scene to help them disassociate the scene from their fear and give them some control. However, outside of that I don’t see too many practical applications of this other than to have fun with them and give a different overall experience, which they definitely do.
+                        </span>
+                    </p>
+                </div>
+                <div className="image-stack">
+                    <div class='image-cont'>
+                        <img src={mego} class="other-body-img" alt='Mego'/>
+                        <span class='caption'>Mego's Playset</span>
+                    </div>
+                    <div class='image-cont'>
+                        <img src={giants} class="other-body-img" alt='Giants'/>
+                        <span class='caption'>Land of the Giants</span>
+                    </div>
+                    <div class='image-cont'>
+                        <img src={ceiling} class="other-body-img" alt='Ceiling'/>
+                        <span class='caption'>Dancing on the Ceiling</span>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </div>
+>>>>>>> Stashed changes
   )
 }
 
